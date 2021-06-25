@@ -1,0 +1,327 @@
+html {
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+div {
+  display: block;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  color: #333;
+  font-size: 13px;
+  text-align: left;
+  /* background: url(/img/1.png);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* background-position: center; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.container-wrapper {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.bg-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+.bg-image {
+  background: url(/img/1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.container {
+  /* width: 100%; */
+  height: 100%;
+  /* position: fixed; */
+  /* overflow: hidden; */
+  background: #ffffff;
+}
+
+.sign-box {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 0 5px #888;
+  border-radius: 4px;
+  padding-top: 25px;
+  width: 650px;
+  position: absolute;
+  bottom: initial;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow-y: hidden;
+  top: 10%;
+}
+
+.logo {
+  width: 224px;
+  min-width: 224px;
+  height: 140px;
+  background-size: 224px 63px;
+  background-image: url(//qsfs.fs.quoracdn.net/-3-images.logo.wordmark_default.svg-26-bfa6b94bc0d6af2e.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 82px;
+  position: relative;
+  margin: auto;
+}
+.quotes {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin: 8px 0 32px;
+  color: #949494;
+  text-align: center;
+}
+inner-container {
+  margin-top: 0;
+  box-sizing: border-box;
+  position: relative;
+  padding: 32px;
+}
+.credits {
+  padding: 32px;
+  display: block;
+}
+.signup-login {
+  position: relative;
+}
+.signup {
+  padding-right: 32px;
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  /* border: 1px solid #949494; */
+}
+.inner-signup {
+  display: block;
+}
+.google-logo {
+  background: url(/img/google_button.png);
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin-right: 8px;
+}
+.google-login-button {
+  text-decoration: none;
+  background-color: #df4930;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px 0 rgba(200, 200, 200, 0.2);
+  display: inline-block;
+  font-weight: 500;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 16px;
+  font-size: 16px;
+  padding: 8px 16px;
+  width: 270px;
+}
+.google-button-text {
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+.facebook-login-button {
+  text-decoration: none;
+  background-color: #507cc0;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px 0 rgba(200, 200, 200, 0.2);
+  display: inline-block;
+  font-weight: 500;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 16px;
+  font-size: 16px;
+  padding: 8px 16px;
+  width: 270px;
+}
+.facebook-logo {
+  background: url(/img/facebook_button.png);
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin-right: 8px;
+}
+.facebook-button-text {
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+.signup-email-link {
+  text-decoration: none;
+  color: #2b6dad;
+  background: transparent;
+}
+.signup-lightgrey-description {
+  color: #949494;
+  font-size: 13px;
+}
+.terms-of-services {
+  color: #2b6dad;
+  background: transparent;
+  font-size: 13px;
+}
+.policy {
+  color: #2b6dad;
+  background: transparent;
+  font-size: 13px;
+}
+.partition {
+  content: "";
+  width: 1px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: #941717;
+  left: 50%;
+}
+.login {
+  position: relative;
+  padding-left: 32px;
+  float: right;
+  box-sizing: border-box;
+  width: 50%;
+}
+.login-form {
+  display: block;
+
+  margin-top: 0em;
+}
+
+.login-title {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.form-coloumn {
+  margin-bottom: 8px;
+}
+.email-input,
+.password-input {
+  background: #eee;
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.4;
+  padding: 18px 8px;
+  min-height: 32px;
+  margin-bottom: 8px;
+  /* padding: 3px 5px; */
+  height: 15px;
+  box-sizing: border-box;
+  min-height: 27px;
+  outline: 0;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(200, 200, 200, 0.755);
+}
+.forgot-password {
+  color: #949494;
+  text-decoration: none;
+  background: transparent;
+  font-size: 13px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+.login-btn {
+  opacity: 0.5;
+  float: right;
+  font: inherit;
+  font-size: 15px;
+  line-height: 1.4;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 500;
+  padding: 3px 7px 4px 7px;
+  text-align: center;
+  text-decoration: none;
+  background: #3e78ad;
+  color: #fff;
+  border: 1px solid #3a66ad;
+  box-shadow: 0 1px 1px 0 rgba(200, 200, 200, 0.6);
+}
+.language {
+  display: block;
+  text-align: center;
+  border-top: 1px solid #e2e2e2;
+  padding: 8px 32px;
+  margin-top: 200px;
+}
+.language-1,
+.language-2 {
+  margin-right: 16px;
+}
+.hindi-lang,
+.marathi-lang {
+  color: #949494;
+  font-size: 13px;
+}
+
+.arrow {
+  display: inline-block;
+  line-height: 0;
+  vertical-align: text-bottom;
+}
+.arrow svg {
+  width: 16px;
+  height: 16px;
+}
+.footer-nav {
+  padding: 16px;
+  border-top: 1px solid #e2e2e2;
+  background: #fafafa;
+}
+.nav-list {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-list ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  /* display: block; */
+}
+.nav-list li {
+  color: #949494;
+  display: inline-block;
+  /* margin-right: 16px; */
+  margin: 0px;
+  padding-right: 3px;
+  font-size: 13px;
+}
