@@ -36,7 +36,7 @@ body {
   overflow: hidden;
 }
 .bg-image {
-  background: url('/img/1.png') no-repeat center center fixed;
+  background: url("https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -114,7 +114,8 @@ inner-container {
   display: block;
 }
 .google-logo {
-  background: url('/img/google_button.png');
+  /* background: url('/img/google_button.png'); */
+  background-color: #e2e2e2;
   background-size: 24px 24px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -122,6 +123,7 @@ inner-container {
   height: 24px;
   float: left;
   margin-right: 8px;
+  border-radius: 4px;
 }
 .google-login-button {
   text-decoration: none;
@@ -165,7 +167,8 @@ inner-container {
   width: 270px;
 }
 .facebook-logo {
-  background: url(/img/facebook_button.png);
+  /* background: url(/img/facebook_button.png); */
+  background-color: #e2e2e2;
   background-size: 24px 24px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -173,6 +176,7 @@ inner-container {
   height: 24px;
   float: left;
   margin-right: 8px;
+  border-radius: 4px;
 }
 .facebook-button-text {
   line-height: 1.4;
